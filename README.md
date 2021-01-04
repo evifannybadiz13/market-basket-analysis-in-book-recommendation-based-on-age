@@ -3,7 +3,7 @@
 ## Topik		: Market Basket Analysis
 ## Judul		: Market Basket Analysis in Book Recommendation based on Age
 
-Business Understanding		
+### Business Understanding		
 a.	Business Objectives
 Stok buku merupakan permasalahan operasional yang sering dihadapi oleh toko buku. Jika jumlah buku terlalu sedikit dan permintaan tidak dapat dipenuhi karena kekurangan persediaan, maka akan mengakibatkan konsumen merasa kecewa dan ada kemungkinan konsumen tidak akan kembali lagi. Begitu juga jika pengadaan terlalu besar, maka akan mengakibatkan kerugian bagi toko buku karena harus menyediakan tempat yang lebih besar, terjadinya penyusutan nilai guna buku, serta harus menyediakan biaya tambahan yang terkait dengan biaya inventori seperti biaya pemeliharaan buku. Salah satu cara yang dapat dilakukan untuk mengetahui kondisi pasar (konsumen) adalah dengan mengamati transaksi penjualan buku tersebut. Data transaksi penjualan yang disimpan dalam basis data dapat diolah lebih lanjut sehingga didapatkan informasi baru. Jika diketahui bahwa konsumen yang membeli satu buku cenderung membeli buku lain maka memungkinkan bagi produsen toko buku untuk memasarkan buku tersebut bersama-sama. Keterkaitan buku tersebut merupakan informasi berharga yang dapat digunakan sebagai strategi pemasaran.
 
