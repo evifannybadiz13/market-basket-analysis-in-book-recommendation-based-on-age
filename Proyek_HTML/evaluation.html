@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>DAMI/Kelompok 14</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+	<header id="header">
+		<p><h1><a href="index.html" class="logo">~Market Basket Analysis <br> in Book Recommendation Based on Age~</a></h1></p>	
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li ><a href="index.html">CRISP-DM </a></li>
+                <li ><a href="dataprep.html"> Data Preparation</a></li>
+				<li ><a href="model.html">Modelling</a></li>
+				<li class="active"><a href="evaluation.html">Evaluation</a></li>
+			</ul>
+
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<span class="date">Proyek DAMI 2021</span>
+					<h3><a href="#"><br />
+						</a>EVALUATION </h3>
+					<p>Pada tahap ini, model sudah terbentuk dan diharapkan memiliki kualitas baik jika dilihat dari perspektif analisis data. Sebelum melanjutkan ke penerapan akhir dari model, penting untuk dilakukan evaluasi terhadap keefektifan dan kualitas model secara menyeluruh dan meninjau langkah-langkah yang dilakukan untuk membangun model dalam memastikan apakah model dapat mencapai tujuan yang ditetapkan pada fase awal (Business Understanding) dengan benar. Tujuan utama dari tahap ini adalah menentukan apakah ada masalah bisnis yang belum cukup dipertimbangkan. Pada akhir dari tahap ini, ditentukan penggunaan hasil proses data mining yang harus tercapai.</p>
+				</header>
+			</article>
+
+
+			<!-- Posts -->
+			<section>
+                <div>
+					<header>
+						<h3>  Evaluation The Apriori Implementation/ Market Basket Analysis
+							<br /></h3>
+					</header>
+					<p>Pada evaluasi market basket analysis didefinisikan test_dataset, test_favorablr dan test_favorable_by_users, kemudian dilakukan iterasi pada semua user dan review berdasarkan buku yang mungkin disukai dalam setiap candidate association rule. Lalu dilakukan pengujian dengan fungsi “if” untuk memastikan bahwa premis yang diberikan memang berlaku untuk seorang user, maksudnya buku yang direkomendasikan apakan memang sesuai dengan minat user. Jika ya maka akan dilihat bahwa buku yang direkomendasikan akan mendapat kesimpulan baik namun jika tidak maka rekomendasi yang diberikan tidak benar. Selanjutnya dilakukan perhitungan untuk rule_confidence.
+						</p>
+					<a class="img-thumbnail"><img src="images/model/15.PNG" alt="" /></a>
+					<p>Pada tahap ini dilakukan pengujian dengan cara mendefinisikan test_coonfidence
+					</p>
+					<a class="img-thumbnail"><img src="images/model/16.PNG" alt="" /></a>
+					<p></p>Kemudian pada bagian iterasi index, dicetak rule berdasarkan fungsi tersebut sehingga apabila user dengan kelompok umur tertentu memiliki pola yang sama maka akan direkomendasikan buku yang sesuai dengan kelompok umur mereka. Pada hasil evaluasi akan ditampilkan hasil test confidence sesuai dengan fungsi yang sudah didefinisikan.</p>
+					<a class="img-thumbnail"><img src="images/model/17.PNG" alt="" /></a>
+						<a class="img-thumbnail"><img src="images/model/18.PNG" alt="" /></a>
+					</div>
+			</section>
+
+			<section>
+				<div>
+					<header>
+						<h3><a href="#">GUI Implementation <br /></h3>
+					</header>
+					<ul>
+						<li>Technology: HTML, JavaScript, CSS </li>
+						<li>Environment: Visual Studio Code</li>
+						<li>Front-end framework: Bootstrap </li>
+						<li>Data Mining Implementasion: Jupyter Notebokk</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	<!--Footer-->
+	<div>
+		<footer id="footer">
+			<section>
+				<section class="alt">
+					<p>Evi Fanny Dear Sidabutar (12S17045)<br/>
+						Maria Anastasia Br. Simanullang (12S17056)<br />
+						Fradina Kristina Sinambela (12S17067)</p>
+				</section>
+				<section >
+					<section class="alt">
+						<h2>Proyek DAMI 2021</h2>
+						<h2>Institute Teknologi Del</h2>
+						<li>Artefak Proyek: <a
+							href="https://github.com/evifannybadiz13/market-basket-analysis-in-book-recommendation-based-on-age">Github</a>
+						</li>
+					</section>
+		</footer>
+	</div>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy;Kelompok 14</li>
+				<li>Design: <a href="https://html5up.net">With Love</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

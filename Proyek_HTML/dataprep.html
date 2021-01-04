@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>DWBI/Kelompok 14</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+		<p><h1><a href="index.html" class="logo">~Market Basket Analysis <br> in Book Recommendation Based on Age~</a></h1></p>	
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li ><a href="index.html">CRISP-DM </a></li>
+                <li class="active"><a href="dataprep.html"> Data Preparation</a></li>
+				<li><a href="model.html">Modelling</a></li>
+				<li ><a href="evaluation.html">Evaluation</a></li>
+			</ul>
+
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<span class="date">Proyek DAMI 2021</span>
+					<h3><a href="#"><br />
+						</a>Data Preparation </h3>
+					<p>Mencakup semua kegiatan untuk membangun dataset akhir (data yang akan diproses pada tahap pemodelan) dari data mentah. Tahap data preparation ini cenderung dilakukan beberapa kali dan tidak dalam urutan yang ditentukan. 
+						Pada tahap ini juga mencakup pemilihan tabel, record, dan atribut-atribut data, termasuk proses pembersihan dan transformasi data untuk kemudian dijadikan masukan dalam tahap pemodelan.</p>
+				</header>
+				<a href="#" class="image main"><img src="images/prep.png" alt="" /></a>
+
+			</article>
+
+			<!-- Posts -->
+			<section>
+                <div>
+					<header>
+						<h3> Data Integration<br /></h3>
+					</header>
+					<p>Diawali dengan penggabungan data yang dilakukan dengan cara mengkombinasikan data.
+						Pertama sekali data di import dari berkas format .csv dengan menggunakan pustaka pandas.</p>
+					<a class="img-thumbnail"><img src="images/prep/load.PNG" alt="" /></a>
+					<p>Maka dapat dilihat info dari dataset yakni.</p>
+					<a class="img-thumbnail"><img src="images/prep/2.PNG" alt="" /></a>
+					<p>Kemudian, dilakukan penggabungan objek DataFrame dengan indeks yakni menggunakan fungsi merge menggunakan parameter inner untuk tetap menggabungkan data kolom tabel dengan posisi kanan dan kiri. 
+						Maka, terdapat 12 kolom yang akan digabungkan.</p>
+					<a class="img-thumbnail"><img src="images/prep/3.PNG" alt="" /></a>
+                </div>
+			</section>
+			
+            <section>
+                <div>
+                    <header>
+                        <h3>Data Selection<br /></h3>
+					</header>
+					<p>Memilih data yang relevan terhadap analisis yang dilakukan. Maka dari 14 atribut yang terdapat pada dataset  dipilih beberapa atribut yang akan digunakan pada penerapan market basket analysis yang berdasarkan kebutuhan pada algoritma apriori. 
+						Dengan menghapus atribut yang tidak diperlukan pada saat eksekusi data seperti, Image-Url-S, Image-Url-M, Image-Url-L, Publisher, Location, Book-Author, dan Year-Of-Publication. Maka, berikut hasil pemilihan atribut yang digunakan.
+					</p>
+                    <a href="#" class="img-thumbnail"><img src="images/prep/4.PNG"alt="" /></a>
+                </div>
+			</section>
+			
+            <section>
+                    <div>
+                        <header>
+                            <h3>Data Cleaning<br /></h3>
+						</header>
+						<p>Melakukan pembersihan terhadap data yang hilang atau  missing data. 
+							Sehingga tampak terlihat daftar atribut yang bernilai  missing data yakni terdapat pada atribut age.</p>
+                        <a href="#" class="img-thumbnail"><img src="images/prep/5.PNG" alt="" /></a>
+						<p>Kemudian, dilakukan pengelompokkan umur dengan rentang umur 10 tahun untuk  mereplace nilai NaN pada data set.
+						</p>
+						<a href="#" class="img-thumbnail"><img src="images/prep/7.PNG" alt="" /></a>
+                    </div>
+			</section>
+
+			<section>
+				<div>
+					<header>
+						<h3>Data Transformation<br /></h3>
+					</header>
+					<p>Setelah dari tahap cleaning data, maka dilakukan replace nilai NaN pada data set, 
+						dengan membuat pengelompokkan pada age menjadi age_group atau menambah atribut baru..</p>
+					<a href="#" class="img-thumbnail"><img src="images/prep/8.PNG" alt="" /></a>
+				</div>
+		</section>
+		</div>
+
+		<!--Footer-->
+		<div>
+			<footer id="footer">
+				<section>
+					<section class="alt">
+						<p>Evi Fanny Dear Sidabutar (12S17045)<br/>
+							Maria Anastasia Br. Simanullang (12S17056)<br />
+							Fradina Kristina Sinambela (12S17067)</p>
+					</section>
+					<section >
+						<section class="alt">
+							<h2>Proyek DAMI 2021</h2>
+							<h2>Institute Teknologi Del</h2>
+							<li>Artefak Proyek: <a
+								href="https://github.com/evifannybadiz13/market-basket-analysis-in-book-recommendation-based-on-age">Github</a>
+							</li>
+						</section>
+			</footer>
+		</div>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy;Kelompok 14</li>
+				<li>Design: <a href="https://html5up.net">With Love</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
