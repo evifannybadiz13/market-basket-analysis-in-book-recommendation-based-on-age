@@ -17,8 +17,11 @@ Toko Buku ABC merupakan toko yang menjual berbagai kategori buku. Toko ini ingin
 c.	Data Mining Goal
 
 Tujuan dari pengerjaan proyek adalah sebagai berikut: 
+
 1.	Mendapatkan informasi mengenai behaviour konsumen dan memahaminya berdasarkan transaksi pembelian buku. 
+
 2.	Mempelajari buku yang paling banyak dibeli oleh konsumen. 
+
 3.	Menghasilkan model rekomendasi buku berdasarkan umur  melalui data yang tersedia dan menyarankan buku kepada konsumen.
 
 d.	Produce Project Plan
@@ -27,9 +30,13 @@ Proyek ini akan menggunakan algoritma Apriori pada python. Data transaksi penjua
 Setelah pola transaksi penjualan buku diperoleh maka dilakukan pengelompokkan buku tersebut berdasarkan umur konsumen. Hasil akhir dari proses ini berupa rekomendasi pola-pola transaksi buku yang dibeli sehingga menjadi informasi bagi produsen untuk menentukan strategi pasar dan juga berupa rekomendasi buku yang memiliki pola yang sama jika dilakukan transaksi pembelian buku.
 
 Data understanding
+
 a.	Collect Initial Data
+
 b.	Describe Data
+
 c.	Explore Data
+
 d.	Verify Data Quality
 
 Pada proyek ini, dataset pada kaggle.com yang digunakan adalah Book-Crossing: User review ratings yang merupakan kumpulan data buku. Dataset ini terdiri dari 278,858 users (anonim tetapi dengan informasi demografis), 1,149,780 ratings (eksplisit/implisit), dan 271,379 books.
